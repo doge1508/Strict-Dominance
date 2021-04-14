@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>GT 1</title>
+  <script src="app.js"></script>
+</head>
+
+<!--
+ TODO: 
+Make two tables that have one equilibrium.
+Make two tables that have no equilibriums.
+Make two tables that have more than one equilibrium (one with 2 and one with 3)
+-->
+
+<body>
+  <table>
+    <tr>
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+    <tr>
+      <th>D</th>
+      <td>(<input type="text" id="DA1">, <input type="text" id="DA2">)</td>
+      <td>(<input type="text" id="DB1">, <input type="text" id="DB2">)</td>
+      <td>(<input type="text" id="DC1">, <input type="text" id="DC2">)</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <td>(<input type="text" id="EA1">, <input type="text" id="EA2">)</td>
+      <td>(<input type="text" id="EB1">, <input type="text" id="EB2">)</td>
+      <td>(<input type="text" id="EC1">, <input type="text" id="EC2">)</td>
+    </tr>
+    <tr>
+      <th>F</th>
+      <td>(<input type="text" id="FA1">, <input type="text" id="FA2">)</td>
+      <td>(<input type="text" id="FB1">, <input type="text" id="FB2">)</td>
+      <td>(<input type="text" id="FC1">, <input type="text" id="FC2">)</td>
+    </tr>
+  </table>
+  <input type="button" value="Save" onclick="save();">
+  <input type="button" value="Randomize" onclick="randomize();">
+  <input type="button" value="Clear" onclick="clearData();">
+  <input type="button" value="Check" onclick="check();">
+
+</body>
+</html>
